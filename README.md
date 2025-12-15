@@ -66,7 +66,7 @@ DIM_DEPARTMENTS (department_id, department)
 
 DIM_ORDERS (order_id, order_number, order_dow, order_hour_of_day)
 
-Fact Table:
+⭐ Fact Table:
 ### 🗂️ ERD Diagram
 ![ERD Diagram](Images/ERD-Diagram.png)
 
@@ -93,8 +93,7 @@ reordered
 
 🔄 Informatica IDMC Integration
 
-Connections
-## 📊 Project Diagrams & ETL Screenshots
+⭐ Connections
 
 ### 🔗 Informatica Connection
 ![Informatica Connection](Images/Connection%20in%20informatica.png)
