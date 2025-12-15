@@ -67,6 +67,9 @@ DIM_DEPARTMENTS (department_id, department)
 DIM_ORDERS (order_id, order_number, order_dow, order_hour_of_day)
 
 Fact Table
+### 🗂️ ERD Diagram
+![ERD Diagram](Images/ERD-Diagram.png)
+
 
 FACT_ORDER_PRODUCTS
 
@@ -91,6 +94,12 @@ reordered
 🔄 Informatica IDMC Integration
 
 Connections
+## 📊 Project Diagrams & ETL Screenshots
+
+### 🔗 Informatica Connection
+![Informatica Connection](Images/Connection%20in%20informatica.png)
+
+
 
 Oracle (On‑Premise)
 
@@ -100,7 +109,16 @@ Mappings
 
 Mapping 1: Oracle → Snowflake (Dimension Tables)
 
+
+### 📐 Dimension Mapping
+![Dimension Mapping](Images/Mapping_dim.png)
+
+
+
+
 Mapping 2: Oracle → Snowflake (Fact Table)
+### 📊 Fact Mapping
+![Fact Mapping](Images/Mapping_fact.png)
 
 Scheduling
 
@@ -113,6 +131,8 @@ This project follows a Star Schema design with a central fact table and multiple
 (ERD and Star Schema diagrams are available in the diagrams/ folder)
 
 📊 Results & Insights
+### 🔄 ETL Execution Status
+![ETL Execution Status](Images/ETL%20Execution%20Status%20Diagram.png)
 
 Daily synchronization between Oracle and Snowflake
 
